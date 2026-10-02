@@ -1,7 +1,7 @@
 const accountId = 5642164;
 let accountEmail = "mytest@test.com";
 var accountPassword = "123645";
-
+let accountStatus;
 accountCity = "Malda";
 
 // accountId = 5453211; // not allowed
@@ -15,4 +15,4 @@ accountEmail = "test@test.com";
 accountPassword = "253266";
 accountCity = "Katihar";
 
-console.table([accountId,accountEmail,accountPassword,accountCity])
+console.table([accountId,accountEmail,accountPassword,accountCity,accountStatus])

@@ -1,44 +1,64 @@
-//Primitive data types - string,number,boolean,null,undefined,symbol,BigInt
+// //Primitive data types - string,number,boolean,null,undefined,symbol,BigInt
 
-let name = "Aman"
-console.log(typeof name)
+// let name = "Aman"
+// console.log(typeof name)
 
-let age = 36
-console.log(typeof age)
+// let age = 36
+// console.log(typeof age)
 
-let price = 56.36
-console.log(typeof price)
+// let price = 56.36
+// console.log(typeof price)
 
-let bigNumber = 462562462466622555555n
-console.log(typeof bigNumber)
+// let bigNumber = 462562462466622555555n
+// console.log(typeof bigNumber)
 
-let sym1 = Symbol("1234")
-console.log(typeof sym1)
+// let sym1 = Symbol("1234")
+// console.log(typeof sym1)
 
-let isLoggedIn = true
-console.log(typeof isLoggedIn)
+// let isLoggedIn = true
+// console.log(typeof isLoggedIn)
 
-let temp = null
-console.log(typeof temp)
+// let temp = null
+// console.log(typeof temp)
 
-let roomTemp;
-console.log(typeof roomTemp)
+// let roomTemp;
+// console.log(typeof roomTemp)
 
-//Reference (Non primitive) - array,object,function
-let numbers = [10,56,89,87,25]
-console.log(typeof numbers)
+// //Reference (Non primitive) - array,object,function
+// let numbers = [10,56,89,87,25]
+// console.log(typeof numbers)
 
-let student1 = {
-    'name':'aman',
-    'age':65,
-    'roll':102,
-    'subject':'math'
+// let student1 = {
+//     'name':'aman',
+//     'age':65,
+//     'roll':102,
+//     'subject':'math'
+// }
+
+// console.log(typeof student1)
+
+// let profit = function myProfit(){
+//  console.log('profit')
+// }
+
+// console.log(typeof profit)
+
+//primitive data stores in stack and Non-primitive data store in heap.
+
+let name = "aman"
+let anotherName = name
+anotherName = "gyan"
+console.log(name)
+console.log(anotherName)
+
+//Non primitive
+let bookOne = {
+    'title':"Java",
+    'author':'Ravi'
 }
 
-console.log(typeof student1)
+let bookTwo = bookOne
 
-let profit = function myProfit(){
- console.log('profit')
-}
-
-console.log(typeof profit)
+bookTwo.author = 'Ram'
+console.log(bookOne)
+console.log(bookTwo)

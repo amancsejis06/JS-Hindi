@@ -29,11 +29,34 @@ tinderUser.isLoggedIn = false
 // const obj3 = {...obj1,...obj2,...obj4}
 // console.log(obj3);
 
- console.log(tinderUser);
- console.log(Object.keys(tinderUser));
- console.log(Object.values(tinderUser));
- console.log(Object.entries(tinderUser));
+//  console.log(tinderUser);
+//  console.log(Object.keys(tinderUser));
+//  console.log(Object.values(tinderUser));
+//  console.log(Object.entries(tinderUser));
 
- console.log(tinderUser.toLocaleString())
+//  console.log(tinderUser.toLocaleString())
  
- 
+const course = {
+    coursename:"js in hindi",
+    price:500,
+    courseInstructor:"Amna Kr"
+}
+
+// console.log(course.courseInstructor)
+
+const {courseInstructor:instructor} = course //Object  Destructuring
+console.log(instructor)
+
+//json data
+
+{
+    "name":"AMna",
+    "coursename":"JS-Hindi",
+    "price":"Free"
+}
+
+[
+    {},
+    {},
+    {}
+]

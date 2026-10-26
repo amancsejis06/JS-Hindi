@@ -1,4 +1,4 @@
-// Javascript Execution ZContext
+// Javascript Execution Context
 /*
 {} -> Global EC <- this
 Function EC

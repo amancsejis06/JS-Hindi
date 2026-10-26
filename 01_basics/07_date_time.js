@@ -20,6 +20,13 @@ console.log(myTimeStamp)
 let lakshyaBirthdate = new Date("12-20-2017")
 console.log(lakshyaBirthdate.getTime());
 
-let age = (((((myTimeStamp - lakshyaBirthdate.getTime())/1000)/60)/60)/24)/365
-console.log(`Laskhya age is ${age}`);
+let gyanviBirthdate = new Date("11-02-2022")
+
+let age_lakshya = (((((myTimeStamp - lakshyaBirthdate.getTime())/1000)/60)/60)/24)/365
+console.log(`Laskhya age is ${Math.floor(age_lakshya)}`);
+
+let age_gyanvi = (((((myTimeStamp - gyanviBirthdate.getTime())/1000)/60)/60)/24)/365
+console.log(`Gyanvi age is ${Math.floor(age_gyanvi)}`);
+
+
 

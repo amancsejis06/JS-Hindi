@@ -1,0 +1,18 @@
+.boxes{
+    display: flex;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 2px;
+}
+#grey{
+    background-color: grey;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
